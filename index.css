@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    background-color:orangered;
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-items: last baseline;
+}
+
+.container > div {
+  width: 100px;
+  margin: 5px;
+  line-height: 80px;
+  font-size: 30px;
+  background-color: #dadada;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.one{
+    
+}
